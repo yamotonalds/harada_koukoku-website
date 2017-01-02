@@ -201,7 +201,7 @@ header #tel strong {
 	margin-top: -5px;
 }
 
-/*「診療科目」ページの一覧用ブロック
+/*詳細ページの一覧用ブロック
 ---------------------------------------------------------------------------*/
 /*ボックスの設定*/
 #main section.list {
@@ -333,8 +333,8 @@ footer .pr {
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 20px 0px;
-	background: url(../images/footer_bg.png) no-repeat right center;	/*古いブラウザ用（IE8以下）は原寸大表示*/
-	background: url(../images/footer_bg.png) no-repeat right center/auto 80%;	/*歯のマーク読み込み。右側の上下中央に配置。ブロックの高さに対して80%で表示。*/
+	/*background: url(../images/footer_bg.png) no-repeat right center;*/	/*古いブラウザ用（IE8以下）は原寸大表示*/
+	/*background: url(../images/footer_bg.png) no-repeat right center/auto 80%;*/	/*フッター画像表示用。右側の上下中央に配置。ブロックの高さに対して80%で表示。*/
 }
 /*１行分の設定*/
 #footermenu ul {
@@ -696,7 +696,7 @@ header #logo {
 	margin-bottom: 7px;	/*バー同士の余白*/
 }
 
-/*「診療科目」ページの一覧用ブロック
+/*詳細ページの一覧用ブロック
 ---------------------------------------------------------------------------*/
 /*ボックス内の段落タグ設定*/
 #main section.list p {
